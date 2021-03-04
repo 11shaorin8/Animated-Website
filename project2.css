@@ -1,0 +1,127 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:  url('sea.jpg');
+    background-repeat: none;
+    background-size: cover;
+  
+   
+    
+}
+
+
+nav{
+    height: 8%;
+    width: 100%;
+    background-color: white;
+    padding: 1px 2px;
+    opacity: 0.4;
+    
+}
+nav .logo {
+    color: black;
+    padding: 12px 12px;
+    float: left;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+nav .menu{
+    float: right;
+    padding: 20px 22px;
+    
+    
+    
+}
+nav .menu a{
+    
+    padding:  17px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 2px;
+    font-size: 19px;
+    transition: ease 0.5s;
+   
+     
+}
+nav .menu a:hover{
+    background-color: wheat;
+}
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+ section h3{
+   font-size: 32px;
+   font-weight: 500;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px whitesmoke ;
+    margin-bottom: 15px;
+}
+section h1{
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px whitesmoke ;
+    margin-bottom: 15px;
+}
+ section p{
+    font-size: 20px;
+    text-shadow: 1px 1px 2px whitesmoke ;
+    font-weight: 400;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    color: rgb(10, 10, 10);
+
+    
+}
+section a{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 8px ;
+    border: 2px solid rgb(11, 35, 39);
+    color: rgb(37, 36, 36);
+}
+.btnone{
+    background-color: wheat;
+    opacity: 0.6;
+
+}
+.btntwo{
+    background-color: wheat;
+    opacity: 0.6;
+}
+.btnone:hover{
+    background-color: rgb(104, 98, 98);
+    transition: ease 0.5s;
+}
+.btntwo:hover{
+    background-color: rgb(104, 98, 98);
+    transition: ease 0.5s;
+}
+nav div h1{
+    padding: 10px 30px;
+}
+
+
+
+
+
+
